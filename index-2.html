@@ -3,83 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Media Dashboard</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title> Bento Grid</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="bento-grid">
-        <!-- Card 1: Create Post -->
-        <div class="grid-item primary">
-            <h2>Create and schedule content quicker</h2>
-            <button class="btn">Create Post</button>
-            <img src="assets/images/create-post.png" alt="Create Post" class="card-image">
+    <div class="grid-container">
+        <div class="grid-item text">Creative text-only card</div>
+        <div class="grid-item image">
+            <img src="preview.jpg" alt="Visually striking image">
         </div>
-        
-        <!-- Card 2: AI Features -->
-        <div class="grid-item secondary">
-            <h3>Social Media 10x Faster with AI</h3>
-            <p class="reviews">Over 4,000 5-star reviews</p>
-            <p>Write your content using AI.</p>
-            <img src="assets/images/ai-icon.png" alt="AI Icon" class="card-icon">
+        <div class="grid-item mixed">
+            <img src="preview.jpg" alt="Mixed Content">
+            <p>Blending visuals with text</p>
         </div>
-
-        <!-- Card 3: Growth Stats -->
-        <div class="grid-item accent">
-            <div class="stat">
-                <div class="stat-value">>56%</div>
-                <div class="stat-label">faster audience growth</div>
-            </div>
-            <p>Maintain a consistent posting schedule.</p>
-            <img src="assets/images/growth-chart.png" alt="Growth Chart" class="card-image">
+        <div class="grid-item interactive">
+            <button>Explore More</button>
         </div>
-        
-        <!-- Card 4: Schedule -->
-        <div class="grid-item">
-            <h3>Schedule to social media</h3>
-            <div class="platform-tabs">
-                <span class="active">Mail</span>
-                <span>Twitter</span>
-                <span>Tips</span>
-                <span>Next Active</span>
-            </div>
-            <img src="assets/images/schedule-ui.png" alt="Schedule UI" class="card-image">
-        </div>
-
-        <!-- Card 5: Best Time -->
-        <div class="grid-item dark">
-            <h3>Best Time to Post</h3>
-            <div class="calendar-header">
-                <span>August 2024</span>
-                <span>Week 1</span>
-            </div>
-            <div class="week-days">
-                <span>Mon</span>
-                <span>Tue</span>
-                <span>Wed</span>
-                <span>Thu</span>
-            </div>
-            <div class="time-slots">
-                <span>12a</span>
-                <span>3a</span>
-                <span>6a</span>
-                <span>9a</span>
-                <span>12p</span>
-            </div>
-            <p>Optimize post timings for your audience.</p>
-        </div>
-
-        <!-- Card 6: Account Management -->
-        <div class="grid-item">
-            <div class="account-header">
-                <img src="assets/images/profile.png" alt="Profile" class="profile-img">
-                <h3>@fwab</h3>
-            </div>
-            <p>Manage multiple accounts and platforms.</p>
-            <p class="highlight">Grow followers with non-stop content.</p>
+        <div class="grid-item large-featured">
+            <h2>Feature Highlight</h2>
+            <p>Showcasing something special</p>
         </div>
     </div>
-
-    <script src="scripts/main.js"></script>
 </body>
 </html>
